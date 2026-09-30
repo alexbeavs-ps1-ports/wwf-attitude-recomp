@@ -1,0 +1,18 @@
+{
+  "disc_count": 1,
+  "verdict": "single",
+  "differing_program_fields": [],
+  "warnings": [],
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "WWF Attitude (USA).cue",
+      "cue_path": "disc/WWF Attitude (USA).cue",
+      "serial": "SLUS-00831",
+      "boot_exe": "SLUS_008.31",
+      "entry_pc": "0x800A744C",
+      "track_count": 2,
+      "required_disc_fp": "164e63c23645aa0062f728508d557345729f4b45b9f1a0abae32dfdfd6442f38"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+[project]
+title = "WWF Attitude"
+region = "USA"
+track = "recompilation"
+status = "source_prepared_unqualified"
+
+[retail_identity]
+disc_count = 1
+serials = ["SLUS-00831"]
+executable_paths = ["SLUS_008.31"]
+executable_sha256 = "8e84fc93391156eea9647b9e046c54f1cea6bb110e5c2bf5c5a4b8f95b77c70f"
+load_address = "0x800734B8"
+entry_point = "0x800A744C"
+
+[bios]
+profile = "SCPH1001"
+sha256 = "71af94d1e47a68c11e8fdb9f8368040601514a42a5a399cda48c7d3bff1e99d3"
+
+[framework]
+name = "psxrecomp"
+qualification = "pending T168 and shared canaries"
+template_commit = "77fc84d18cd341ba0c0feb68a63f0904f8c467f0"
+
+[release]
+target_version = "v0.4.0"
+private_only = true
+profile_status = "CI training pending"
